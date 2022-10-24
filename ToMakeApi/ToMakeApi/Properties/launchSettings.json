@@ -4,17 +4,17 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:61868",
-      "sslPort": 44393
+      "applicationUrl": "http://localhost:46197",
+      "sslPort": 44354
     }
   },
   "profiles": {
-    "NorthwindAPI": {
+    "ToMakeApi": {
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,
-      "launchUrl": "api/suppliers",
-      "applicationUrl": "https://localhost:7282;http://localhost:5282",
+      "launchUrl": "api/ToMakeItems",
+      "applicationUrl": "https://localhost:7202;http://localhost:5075",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
@@ -22,7 +22,7 @@
     "IIS Express": {
       "commandName": "IISExpress",
       "launchBrowser": true,
-      "launchUrl": "api/suppliers",
+      "launchUrl": "swagger",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
